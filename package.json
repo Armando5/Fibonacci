@@ -4,9 +4,7 @@
   "description": "",
   "main": "ex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ex.js",
-    "dev": "nodemon ex.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
