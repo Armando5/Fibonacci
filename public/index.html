@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <input id= "b1" type="text">
+        <button id= "btn">Click</button>
+        <p id="p1"></p>
+    <script>
+        btn.addEventListener('click', () => {
+            const k = document.getElementById('b1').value
+
+            var fibonaci = (m) => {
+            if(m > 2){
+                return fibonaci(m-2) + fibonaci(m-1)
+            } else {
+                return m
+            }
+        }
+        document.getElementById('p1').textContent = fibonaci(k)
+        })
+    </script>
+    </body>
+</html>
